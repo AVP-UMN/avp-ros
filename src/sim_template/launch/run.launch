@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find avp_bringup)/launch/fake_turtlebot.launch" />
+  <node name="rviz" type="rviz" pkg="rviz" args="-d $(find avp_sim_nav)/sim.rviz" />
+  <node pkg="sim_template" name="sim_template" type="test1.py" output="screen">
+  </node>
+</launch>

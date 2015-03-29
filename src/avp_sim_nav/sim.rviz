@@ -8,6 +8,8 @@ Panels:
         - /Status1
         - /Odometry1
         - /Odometry EKF1
+        - /TF1
+        - /TF1/Frames1
       Splitter Ratio: 0.652661
     Tree Height: 664
   - Class: rviz/Selection
@@ -484,5 +486,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1213
-  X: 276
-  Y: 131
+  X: 266
+  Y: 121
