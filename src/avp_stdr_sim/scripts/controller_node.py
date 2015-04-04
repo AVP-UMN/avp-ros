@@ -69,13 +69,13 @@ class Controller():
         rospy.sleep(1)
 
     def lidar_scan(self,scan):
-        #print("print lidar:")
-        #print(scan)
+        print("print lidar:")
+        print(scan)
         pass
  
 if __name__ == '__main__':
     try:
         Controller()
     except:
-        rospy.loginfo("Out-and-Back node terminated.")
+        rospy.loginfo("node terminated.")
 
