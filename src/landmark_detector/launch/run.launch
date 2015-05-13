@@ -1,0 +1,7 @@
+<launch>
+	
+	<include file="$(find lms1xx)/launch/LMS1xx.launch" />
+	<node pkg="landmark_detector" name="landmark_detector" type="landmark_detector.py" output="screen">
+	</node>
+
+</launch>
